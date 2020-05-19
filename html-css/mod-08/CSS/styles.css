@@ -46,8 +46,10 @@
   height: 30px;
 }
 .btn_header button:hover {
-  border-color: black;
-  background-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255);
 }
 .heading {
   margin-top: 110px;
@@ -83,7 +85,7 @@
 }
 .heading h2 {
   font-size: 18px;
-  font-family: "VegurLight";
+  font-family: "Roboto";
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: center;

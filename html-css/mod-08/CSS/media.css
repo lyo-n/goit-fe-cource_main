@@ -6,6 +6,7 @@
   .header_main {
     background-image: url("../IMG/mobile/main_mobile.png");
     background-color: black;
+    overflow-x: hidden;
     background-size: 100% auto;
   }
 }
