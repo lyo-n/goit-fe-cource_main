@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-image: url("../IMG/mobile/main_mobile.png");
+  background-size: cover;
+  owerflow-x: hidden;
+  width: 100vw;
+  height: 540px;
+  display: block;
+  margin-bottom: 70px;
+}
+.menu {
+  display: flex;
+  padding-top: 25px;
+  list-style-type: none;
+}
+.menu__item button {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  border: medium none;
+  background-image: none;
+  background: transparent;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: transparent;
+  width: 68px;
+  height: 30px;
+}
+.menu__item button:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255);
+}
+.logo {
+  margin-top: 115px;
+  padding-bottom: 30px;
+}
+.logo p {
+  text-align: center;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.heading h1 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.heading h2 {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.main__button {
+  display: flex;
+  justify-content: center;
+}
+.main__button button {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: transparent;
+  width: 260px;
+  height: 36px;
+}
+.main__button button:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 260px;
+  color: white;
+}
+.heading__main {
+  font-size: 22px;
+  font-family: "Myriad Pro";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.filling_main {
+  text-align: center;
+}
+.col-12 .filling_main {
+  margin-bottom: 30px;
+}
+.icon_pos {
+  position: relative;
+  left: 56%;
+  bottom: 43px;
+}
+.icon_1 {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 78, 80);
+  width: 37px;
+  height: 37px;
+  position: relative;
+}
+.icon_1:before {
+  content: "";
+  background-image: url("../IMG/mobile/PNG/1_hunter.png");
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 20%;
+  top: 22%;
+}
+.icon_2 {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 165, 7);
+  width: 37px;
+  height: 37px;
+  position: relative;
+}
+.icon_2:before {
+  content: "";
+  background-image: url("../IMG/mobile/PNG/2_marsha.png");
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 20%;
+  top: 22%;
+}
+.icon_3 {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(28, 215, 173);
+  width: 37px;
+  height: 37px;
+  position: relative;
+}
+.icon_3:before {
+  content: "";
+  background-image: url("../IMG/mobile/PNG/3_walker.png");
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 20%;
+  top: 22%;
+}
+.icon_4 {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(78, 115, 219);
+  width: 37px;
+  height: 37px;
+  position: relative;
+}
+.icon_4:before {
+  content: "";
+  background-image: url("../IMG/mobile/PNG/4_Bhunter.png");
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 20%;
+  top: 22%;
+}
+.filling h4 {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 0.9;
+  text-align: center;
+  padding-bottom: 8px;
+}
+.filling p {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(102, 102, 102);
+  line-height: 1.3;
+  text-align: center;
+}
+.footer_btn {
+  text-align: center;
+}
+.footer_btn button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: transparent;
+  width: 260px;
+  height: 36px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 78, 80);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.footer_btn button:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  width: 260px;
+  color: white;
+}

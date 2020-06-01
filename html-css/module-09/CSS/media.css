@@ -1,0 +1,121 @@
+@media only screen and (min-width: 320px) {
+  body {
+    max-width: 767px;
+    overflow-x: hidden;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    max-width: 1439px;
+    height: auto;
+    overflow-x: hidden;
+  }
+  .header {
+    background-image: url("../IMG/main_tablet.png");
+    background-color: black;
+    background-size: 100% auto;
+  }
+
+  .logo {
+    position: absolute;
+    left: 25%;
+    bottom: -25px;
+  }
+  .nav {
+    margin-bottom: 150px;
+  }
+  .heading h1 {
+    font-size: 52px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  .heading h2 {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
+  .heading h2 br {
+    display: none;
+  }
+  .main_rows .col-md-4:nth-child(1) {
+    order: 0;
+  }
+  .main_rows .col-md-4:nth-child(2) {
+    order: 2;
+  }
+  .main_rows .col-md-4:nth-child(3) {
+    order: 1;
+  }
+  .main_rows .col-md-4:nth-child(4) {
+    order: 3;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  body {
+    max-width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+  }
+  .header {
+    background-image: url("../IMG/main.png");
+    height: 700px;
+    background-color: black;
+    background-size: 100% auto;
+    background-size: cover;
+  }
+  .header ul {
+    padding-top: 50px;
+  }
+  .logo {
+    position: absolute;
+    left: 52%;
+    bottom: -30px;
+  }
+  .nav {
+    margin-bottom: 135px;
+  }
+  .main__button button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 78, 80);
+    border-radius: 20px;
+    background-color: transparent;
+    width: 225px;
+    height: 40px;
+  }
+  .main__button button:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 78, 80);
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    width: 225px;
+    color: white;
+  }
+  .footer_btn button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 78, 80);
+    border-radius: 20px;
+    background-color: transparent;
+    width: 225px;
+    height: 40px;
+  }
+  .footer_btn button:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 78, 80);
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    width: 225px;
+    color: white;
+  }
+}
