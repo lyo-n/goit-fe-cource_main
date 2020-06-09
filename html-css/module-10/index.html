@@ -8,26 +8,34 @@
     <title>module-10</title>
   </head>
 
-  <body>
+  <body class="conteiner">
     <header class="header">
-      <nav class="header_nav">
-        <div class="header_logo"><a href="#">MoGo</a></div>
-        <ul class="header_list">
-          <li class="header_list--hover"><a href="#">about</a></li>
-          <li class="header_list--hover"><a href="#">service</a></li>
-          <li class="header_list--hover"><a href="#">work</a></li>
-          <li class="header_list--hover"><a href="#">blog</a></li>
-          <li class="header_list--hover"><a href="#">contact</a></li>
-          <li class="header_list--hover">
-            <a href="#"><img src="./IMG/icons_menu/cart.svg" alt="cart" /></a>
+      <nav class="header__nav">
+        <div class="header__logo"><a href="#">MoGo</a></div>
+        <ul class="header__list">
+          <li class="header__list--hover"><a href="#">about</a></li>
+          <li class="header__list--hover"><a href="#">work</a></li>
+          <li class="header__list--hover"><a href="#">blog</a></li>
+          <li class="header__list--hover"><a href="#">service</a></li>
+          <li class="header__list--hover"><a href="#">contact</a></li>
+          <li class="header__list--hover">
+            <a href="#">
+              <svg width="18" height="15" class="header__icon">
+                <use xlink:href="./IMG/symbol-main.svg#icon-cart"></use>
+              </svg>
+            </a>            
           </li>
-          <li class="header_list--hover">
-            <a href="#"><img src="./IMG/icons_menu/glass.svg" alt="glass" /> </a>
+          <li class="header__list--hover">
+            <a href="#">
+              <svg width="18" height="15" class="header__icon">
+                <use xlink:href="./IMG/symbol-main.svg#icon-glass"></use>
+              </svg>
+             </a>
           </li>
         </ul>
       </nav>
-      <h1 class="header_heading">Creative Template <span>welcome<br />to mogo</span></h1>
-      <button class="header_button--hover">learn more</button>
+      <h1 class="header__heading">Creative Template <span>welcome<br />to mogo</span></h1>
+      <button class="header__button--hover">learn more</button>
     </header>
     <div class="wrapper">
       <section class="section__service">
@@ -38,7 +46,9 @@
         <ul class="feature">
           <li class="feature__block">
             <div class="feature__img">
-              <img src="./IMG/icons_main/photography_1.svg" alt="" />
+              <svg width="32" height="31" class="feature__img--fill">
+                <use xlink:href="./IMG/symbol-main.svg#icon-photography_1"></use>
+              </svg>
             </div>
             <div class="feature__info">
               <h3 class="feature__title">photography</h3>
@@ -47,7 +57,9 @@
           </li>
           <li class="feature__block">
             <div class="feature__img">
-              <img src="./IMG/icons_main/web_design_2.svg" alt="" />
+              <svg width="32" height="32" class="feature__img--fill">
+                <use xlink:href="./IMG/symbol-main.svg#icon-web_design_2"></use>
+              </svg>
             </div>
             <div class="feature__info">
               <h3 class="feature__title">web disign</h3>
@@ -56,7 +68,9 @@
           </li>
           <li class="feature__block">
             <div class="feature__img">
-              <img src="./IMG/icons_main/creativity_3.svg" alt="" />
+              <svg width="32" height="28" class="feature__img--fill">
+                <use xlink:href="./IMG/symbol-main.svg#icon-creativity_3"></use>
+              </svg>
             </div>
             <div class="feature__info">
               <h3 class="feature__title">creativity</h3>
@@ -65,7 +79,9 @@
           </li>
           <li class="feature__block">
             <div class="feature__img">
-              <img src="./IMG/icons_main/seo_4.svg" alt="" />
+              <svg width="32" height="32" class="feature__img--fill">
+                <use xlink:href="./IMG/symbol-main.svg#icon-seo_4"></use>
+              </svg>
             </div>
             <div class="feature__info">
               <h3 class="feature__title">seo</h3>
@@ -74,7 +90,9 @@
           </li>
           <li class="feature__block">
             <div class="feature__img">
-              <img src="./IMG/icons_main/html_css_5.svg" alt="" />
+              <svg width="32" height="31" class="feature__img--fill">
+                <use xlink:href="./IMG/symbol-main.svg#icon-html_css_5"></use>
+              </svg>
             </div>
             <div class="feature__info">
               <h3 class="feature__title">css/html</h3>
@@ -83,7 +101,9 @@
           </li>
           <li class="feature__block">
             <div class="feature__img">
-              <img src="./IMG/icons_main/digital_6.svg" alt="" />
+              <svg width="32" height="32" class="feature__img--fill">
+                <use xlink:href="./IMG/symbol-main.svg#icon-digital_6"></use>
+              </svg>
             </div>
             <div class="feature__info">
               <h3 class="feature__title">digital</h3>
@@ -144,7 +164,7 @@
             </div>
             </div>
             <div class="filling__img--hover"></div>
-            <img src="./IMG/meet_our_team_1.png" width="380" height="470" class="filling__img" alt="graphic__design" />
+            <img src="./IMG/meet_our_team_1.png" width="380" height="470" class="filling__img__1" alt="graphic__design" />
             </div>
             <div>
             <h4 class="filling__title">Matthew Dix</h4>
@@ -194,7 +214,7 @@
               </div>
             </div>
             <div class="filling__img--hover"></div>
-            <img src="./IMG/meet_our_team_2.png" width="380" height="470" class="filling__img" alt="graphic__design" />
+            <img src="./IMG/meet_our_team_2.png" width="380" height="470" class="filling__img__2" alt="graphic__design" />
           </div>
             <h4 class="filling__title">Christopher Campbell</h4>
             <p class="filling__name">Branding/UX design</p>
@@ -242,7 +262,7 @@
               </div>
             </div>
             <div class="filling__img--hover"></div>
-            <img src="./IMG/meet_our_team_3.png" width="380" height="470" class="filling__img" alt="graphic__design" />
+            <img src="./IMG/meet_our_team_3.png" width="380" height="470" class="filling__img__3" alt="graphic__design" />
           </div>
           <div>
             <h4 class="filling__title">Michael Fertig</h4>

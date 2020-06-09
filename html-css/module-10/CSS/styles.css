@@ -4,11 +4,13 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-
-
 * {
   margin: 0;
   padding: 0;
+}
+.conteiner{
+  margin: 0 auto;
+  width: 1920px;
 }
 .header {
   background-image: -webkit-gradient(
@@ -30,16 +32,13 @@
       rgba(243, 129, 129, 0.9)
     ),
     url("../IMG/main_bg_img.png");
-  owerflow-x: hidden;
-  background-size: cover;
-  width: 1920px;
   height: 1000px;
   display: block;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 50px;
 }
-.header_nav {
+.header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,14 +54,14 @@
   padding-top: 30px;
   margin-bottom: 165px;
 }
-.header_logo a {
+.header__logo a {
   font-size: 30px;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
   font-weight: bold;
   line-height: 1;
 }
-.header_list {
+.header__list {
   list-style-type: none;
   width: 580px;
   display: -webkit-box;
@@ -74,7 +73,10 @@
   position: relative;
   top: 10px;
 }
-.header_list a {
+.header__icon{
+  fill:#fff;
+}
+.header__list a {
   font-size: 14px;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
@@ -86,10 +88,10 @@
   text-decoration: none;
   list-style-type: none;
 }
-.header_list--hover a:hover {
+.header__list--hover a:hover {
   color: rgb(252, 227, 138);
 }
-.header_list--hover:nth-child(1):hover:after {
+.header__list--hover:nth-child(1):hover:after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -99,7 +101,7 @@
   width: 48px;
   height: 3px;
 }
-.header_list--hover:nth-child(2):hover:after {
+.header__list--hover:nth-child(2):hover:after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -109,7 +111,7 @@
   width: 57px;
   height: 3px;
 }
-.header_list--hover:nth-child(3):hover:after {
+.header__list--hover:nth-child(3):hover:after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -119,7 +121,7 @@
   width: 43px;
   height: 3px;
 }
-.header_list--hover:nth-child(4):hover:after {
+.header__list--hover:nth-child(4):hover:after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -129,7 +131,7 @@
   width: 36px;
   height: 3px;
 }
-.header_list--hover:nth-child(5):hover:after {
+.header__list--hover:nth-child(5):hover:after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -139,13 +141,13 @@
   width: 65px;
   height: 3px;
 }
-.header_heading {
+.header__heading {
   font-size: 72px;
   font-family: "Kaushan Script";
   color: rgb(255, 255, 255);
   line-height: 1.2;
 }
-.header_heading span {
+.header__heading span {
   display: block;
   font-size: 150px;
   padding-top: 45px;
@@ -156,7 +158,6 @@
   line-height: 1;
   margin-bottom: 86px;
 }
-
 .header button {
   font-size: 14px;
   font-family: "Montserrat";
@@ -230,6 +231,9 @@
 .feature__img {
   width: 80px;
   height: 76px;
+}
+.feature__img--fill{
+  fill:#95e1d3;
 }
 .feature__info {
   width: 300px;
@@ -597,13 +601,13 @@
     width: 1920px;
     height: 1000px;
 }
-  .filling__img:nth-child(1) {
+  .filling__img__1:nth-child(1) {
     background-image: url("../IMG/meet_our_team_1@2x.png");
   }
-  .filling__img:nth-child(2) {
+  .filling__img__2:nth-child(2) {
     background-image: url("../IMG/meet_our_team_2@2x.png");
   }
-  .filling__img:nth-child(3) {
+   .filling__img__3:nth-child(3) {
     background-image: url("../IMG/meet_our_team_3@2x.png");
   }
 }
