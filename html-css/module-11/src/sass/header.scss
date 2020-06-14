@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .conteiner{
+    margin: 0 auto;
+    width: 1920px;
+  }
+    .header {
+      background-image: -webkit-gradient(
+          linear,
+          left bottom, left top,
+          from($color_gradient_y),
+          to($color_gradient_o)
+        ),
+        url("../images/main_bg_img.png");
+      background-image: -o-linear-gradient(
+          bottom,
+          $color_gradient_y,
+          $color_gradient_o
+        ),
+        url("../images/main_bg_img.png");
+      background-image: linear-gradient(
+          to top,
+          $color_gradient_y,
+          $color_gradient_o
+        ),
+        url("../images/main_bg_img.png");
+      height: 1000px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px;    
+    }
+    .header__nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      width: 1200px;
+      height: 40px;
+      margin: 0 auto;
+      padding-top: 30px;
+      margin-bottom: 165px;
+    }
+    .header__logo a {
+      font-size: 30px;
+      font-family: $ff_mons;
+      color:$color_text_header;
+      font-weight: bold;
+      line-height: 1;
+    }
+    .header__list {
+      list-style-type: none;
+      width: 580px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      position: relative;
+      top: 10px;
+      &--hover a:hover {
+        color: $color_gradient_y;
+      }
+      &--hover:nth-child(1):hover:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        background-color: $color_gradient_y;
+        margin-top: 12px;
+        width: 48px;
+        height: 3px;
+      }
+      &--hover:nth-child(2):hover:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        background-color: $color_gradient_y;
+        margin-top: 12px;
+        width: 43px;
+        height: 3px;
+      }
+      &--hover:nth-child(3):hover:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        background-color: $color_gradient_y;
+        margin-top: 12px;
+        width: 37px;
+        height: 3px;
+      }
+      &--hover:nth-child(4):hover:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        background-color: $color_gradient_y;
+        margin-top: 12px;
+        width: 56px;
+        height: 3px;
+      }
+      &--hover:nth-child(5):hover:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        background-color: $color_gradient_y;
+        margin-top: 12px;
+        width: 65px;
+        height: 3px;
+      }
+    }
+    .header__icon{
+      fill:$color_text_header;
+    }
+    .header__list a {
+      font-size: 14px;
+      font-family: $ff_mons;
+      color: $color_text_header;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .header a {
+      text-decoration: none;
+      list-style-type: none;
+    }
+     .header__heading {
+      font-size: 72px;
+      font-family: $ff_kaush;
+      color: $color_text_header;
+      line-height: 1.2;
+    }
+    .header__info {
+      display: block;
+      font-size: 150px;
+      padding-top: $ff_mons;
+      color: $color_text_header;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1;
+      margin-bottom: 86px;
+    }
+    .header button {
+      font-size: 14px;
+      font-family: $ff_mons;
+      color: $color_text_header;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      border-style: solid;
+      border-width: 3px;
+      border-color: $color_text_header;
+      background-color: rgba(0, 0, 0, 0);
+      width: 164px;
+      height: 44px;
+    }

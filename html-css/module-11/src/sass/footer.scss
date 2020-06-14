@@ -1,0 +1,145 @@
+.footer:before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-color:$color_afterline;
+    width: 1200px;
+    height: 1px;
+    margin-bottom: 10px;
+  }
+  .footer__block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__info p {
+      font-size: 14px;
+      font-family: $ff_mons;
+      color: $color_text_main;
+      line-height: 1.2;
+      text-align: center;
+      font-weight: 700;
+  }
+  .footer__info a{
+    color: $color_gradient_o;
+    text-decoration: none;
+  }
+  .footer__adress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .email {
+    display: block;
+    border: 1px solid $color_placeholder_email;
+    border-right: none;
+    width: 228px;
+    height: 38px;
+  }
+  .email::-webkit-input-placeholder {
+    font-size: 15px;
+    font-family: $ff_roboto sans-serif;
+    color: $color_placeholder;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: left;
+    text-indent: 1em;
+  }
+  .email::-moz-placeholder {
+    font-size: 15px;
+    font-family: $ff_roboto sans-serif;
+    color: $color_placeholder;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: left;
+    text-indent: 1em;
+  }
+  .email:-ms-input-placeholder {
+    font-size: 15px;
+    font-family: $ff_roboto sans-serif;
+    color: $color_placeholder;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: left;
+    text-indent: 1em;
+  }
+  .email::-ms-input-placeholder {
+    font-size: 15px;
+    font-family: $ff_roboto sans-serif;
+    color: $color_placeholder;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: left;
+    text-indent: 1em;
+  }
+  .email::placeholder {
+    font-size: 15px;
+    font-family: $ff_roboto sans-serif;
+    color: $color_placeholder;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: left;
+    text-indent: 1em;
+  }
+  .footer button {
+    display: block;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: $color_ft_button;
+  }
+  .footer__email {
+    font-size: 14px;
+    font-family: $ff_mons;
+    color: $color_text_header;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  @media (min-resolution: 192ppi), (-webkit-min-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2/1), (min-resolution:2dppx){
+    .header {
+      background-image: -webkit-gradient(
+          linear,
+          left bottom, left top,
+          from($color_gradient_y),
+          to($color_gradient_o)
+        ),
+        url("../images/main_bg_img@2x.png");
+      background-image: -o-linear-gradient(
+          bottom,
+          $color_gradient_y,
+          $color_gradient_o
+        ),
+        url("../images/main_bg_img@2x.png");
+      background-image: linear-gradient(
+          to top,
+          $color_gradient_y,
+          $color_gradient_o
+        ),
+        url("../images/main_bg_img@2x.png");
+      owerflow-x: hidden;
+      background-size: cover;
+      width: 1920px;
+      height: 1000px;
+  }
+    .filling__img__1:nth-child(1) {
+      background-image: url("../IMG/meet_our_team_1@2x.png");
+    }
+    .filling__img__2:nth-child(2) {
+      background-image: url("../IMG/meet_our_team_2@2x.png");
+    }
+     .filling__img__3:nth-child(3) {
+      background-image: url("../IMG/meet_our_team_3@2x.png");
+    }
+  }

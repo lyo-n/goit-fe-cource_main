@@ -1,0 +1,290 @@
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .section__service {
+    height: 558px;
+  }
+  .section__heading {
+    font-size: 24px;
+    font-family: $ff_kaush;
+    color: $color_text_main;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .section__heading span {
+    display: block;
+    font-size: 30px;
+    font-family: $ff_mons;
+    color: $color_text_main;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 23px;
+  }
+  .section__heading span:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(243, 129, 129);
+    width: 60px;
+    height: 3px;
+    margin-top: 42px;
+    margin-bottom: 66px;
+  }
+  .feature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style-type: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .feature__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 95px;
+    width: 380px;
+  }
+  .feature__img {
+    width: 80px;
+    height: 76px;
+  }
+  .feature__img--fill{
+    fill:$color_img_fill;
+  }
+  .feature__info {
+    width: 300px;
+  }
+  .feature__block:nth-child(1) {
+    margin-left: 10px;
+  }
+  .feature__block:nth-child(4) {
+    margin-left: 10px;
+  }
+  .feature__block:nth-child(3) {
+    margin-right: 10px;
+  }
+  .feature__block:nth-child(6) {
+    margin-right: 10px;
+  }
+  .feature__title {
+    font-size: 14px;
+    font-family: $ff_mons;
+    color: $color_text_main;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+  }
+  .feature__text {
+    font-size: 15px;
+    font-family: $ff_roboto;
+    color: $color_info_main;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .section__info {
+    display: block;
+    width: 955px;
+    margin: 0 auto;
+  }
+  .section__info p {
+    font-size: 15px;
+    font-family: $ff_roboto;
+    color: $color_info_main;
+    line-height: 1.6;
+    text-align: center;
+    padding-bottom: 95px;
+  }
+  .section__heading .s-title:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(243, 129, 129);
+    width: 60px;
+    height: 3px;
+    margin-top: 42px;
+    margin-bottom: 46px;
+  }
+  .section__filling {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style-type: none;
+    margin-top: 95px;
+  }
+  .filling__subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 207px;
+    right: 78px;
+  }
+  .filling__subscribe button {
+    width: 56px;
+    height: 56px;
+    background-color: $color_gradient_y;
+    border: none;
+    margin-right: 1px;
+    &:hover{
+      background-color: $color_gradient_o;
+    }
+    &:hover .subscribe{
+      fill: $color_text_header;
+    }
+  }
+  .filling__team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style-type: none;
+  }
+  .filling__main{
+    display: block;
+    position: relative;
+    &:hover > .filling__block--hover {
+      display: block;
+    }
+    &:hover > .filling__block2--hover {
+      display: block;
+    }
+    &:hover > .filling__block3--hover {
+      display: block;
+    }
+    &:hover > .filling__img--hover{
+      display: block;
+    }
+  }
+  .filling__block--hover {
+    width: 380px;
+    height: 470px;
+    display: none;
+    right: 10px;
+    top: -10px;
+    position: absolute;
+    z-index: 3;
+    background-image: -webkit-gradient(
+        linear,
+        left bottom, left top,
+        from($color_gradient_y),
+        to($color_gradient_o)
+      ),
+      url("../images/meet_our_team_1.png");
+    background-image: -o-linear-gradient(
+        bottom,
+        $color_gradient_y,
+        $color_gradient_o
+      ),
+      url("../images/meet_our_team_1.png");
+    background-image: linear-gradient(
+        to top,
+        $color_gradient_y,
+        $color_gradient_o
+      ),
+      url("../images/meet_our_team_1.png");
+  }
+  .filling__block2--hover {
+    width: 380px;
+    height: 470px;
+    display: none;
+    right: 10px;
+    top: -10px;
+    position: absolute;
+    z-index: 3;
+    background-image: -webkit-gradient(
+        linear,
+        left bottom, left top,
+        from($color_gradient_y),
+        to($color_gradient_o)
+      ),
+      url("../images/meet_our_team_2.png");
+    background-image: -o-linear-gradient(
+        bottom,
+        $color_gradient_y,
+        $color_gradient_o
+      ),
+      url("../images/meet_our_team_2.png");
+    background-image: linear-gradient(
+        to top,
+        $color_gradient_y,
+        $color_gradient_o
+      ),
+      url("../images/meet_our_team_2.png");
+  }
+  .filling__block3--hover {
+    width: 380px;
+    height: 470px;
+    display: none;
+    right: 10px;
+    top: -10px;
+    position: absolute;
+    z-index: 3;
+    background-image: -webkit-gradient(
+        linear,
+        left bottom, left top,
+        from($color_gradient_y),
+        to($color_gradient_o)
+      ),
+      url("../images/meet_our_team_3.png");
+    background-image: -o-linear-gradient(
+        bottom,
+        $color_gradient_y,
+        $color_gradient_o
+      ),
+      url("../images/meet_our_team_3.png");
+    background-image: linear-gradient(
+        to top,
+        $color_gradient_y,
+        $color_gradient_o
+      ),
+      url("../images/meet_our_team_3.png");
+  }
+  .filling__img{
+    position: relative;
+    z-index: 1;
+  }
+  .filling__img--hover{
+    background-color: $color_ft_button;
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    display: none;
+    z-index: 2;
+  }
+  .subscribe{
+    fill:#f38181;
+  }
+  .filling__title{
+      font-size: 14px;
+      font-family: $ff_mons;
+      color: $color_text_main;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      padding-top: 30px;
+  }
+  .filling__name {
+    ont-size: 15px;
+    font-family: $ff_roboto;
+    color: rgb(153, 153, 153);
+    font-style: italic;
+    line-height: 1.6;
+    text-align: center;
+    padding-bottom: 82px;
+  }
