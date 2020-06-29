@@ -7,4 +7,4 @@ while(input){
     total += input;
     input = +prompt();
 }
-alert('Общая сумма чисел равна' + ' ' +  total);
+alert(`Общая сумма чисел равна ${total}`);
