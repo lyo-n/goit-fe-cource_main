@@ -1,21 +1,24 @@
-let countryDelivery = ['Китай', 'Чили', 'Австралия', 'Индия', 'Ямайка'];
-let deliveriPrice = ['100', '250', '170', '80', '120'];
-let country = prompt ('Веддите страну доставки!').toUpperCase();
+const china = '100';
+const chili = '250';
+const australia = '170';
+const india = '80';
+const jamaica = '120'; 
+const country = prompt ('Веддите страну доставки!').toLowerCase();
 switch (country){
-case 'КИТАЙ':
-    alert (`Доставка в ${countryDelivery[0]} будет стоить ${deliveriPrice[0]}`);
+case 'китай':
+    alert (`Доставка в Китай будет стоить ${china}`);
     break;
-case 'ЧИЛИ':
-    alert (`Доставка в ${countryDelivery[1]} будет стоить ${deliveriPrice[1]}`);
+case 'чили':
+    alert (`Доставка в Чили будет стоить ${chili}`);
     break;
-case 'АВСТРАЛИЯ':
-    alert (`Доставка в ${countryDelivery[2]} будет стоить ${deliveriPrice[2]}`);
+case 'австралия':
+    alert (`Доставка в Австралию будет стоить ${australia}`);
     break;
-case 'ИНДИЯ':
-    alert (`Доставка в ${countryDelivery[3]} будет стоить ${deliveriPrice[3]}`);
+case 'индия':
+    alert (`Доставка в Индию будет стоить ${india}`);
     break;
-case 'ЯМАЙКА':
-    alert (`Доставка в ${countryDelivery[4]} будет стоить ${deliveriPrice[4]}`);
+case 'ямайка':
+    alert (`Доставка в Ямайку будет стоить ${jamaica}`);
     break;
 default:
     alert('В вашей стране доставка не доступна');

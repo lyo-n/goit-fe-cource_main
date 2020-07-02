@@ -1,6 +1,6 @@
 const total = 100;
 let order = prompt('Введите количество товаров, которое хотите заказать');
-if (order == 0){
+if (order === null, order<1){
     alert ('Невозможно сделать заказ');
 }
 else if (total >=order){

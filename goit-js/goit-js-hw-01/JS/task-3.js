@@ -1,10 +1,20 @@
-let ADMIN_PASSWORD = prompt('Введите пароль!')
-if (ADMIN_PASSWORD == 'jqueryismyjam'){
-    alert ('Добро пожаловать!')
+const ADMIN_PASSWORD = `jqueryismyjam`;
+let message;
+message = 'Добро пожаловать!';
+const inputPassword = prompt('Введите пароль!');
+if (inputPassword === ADMIN_PASSWORD){
+    alert (message)
 }
-else if ( ADMIN_PASSWORD !== 'jqueryismyjam' && ADMIN_PASSWORD != '' && ADMIN_PASSWORD != null) {
-    alert ('Доступ запрещен, неверный пароль!');
+else if ( inputPassword !== ADMIN_PASSWORD  != '' && inputPassword != null) {
+    message='Доступ запрещен, неверный пароль!';
+    alert(message);
 }
-else{
-    alert('Отменено пользователем!');
+else {
+message='Отменено пользователем!'; 
+    alert(message);
 }
+
+
+
+
+

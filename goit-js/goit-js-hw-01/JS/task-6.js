@@ -1,10 +1,10 @@
 let total = 0;
-let input = +prompt('Введите число');
-if ( !parseInt(input)) {
-    alert ('Нужно писать число');
+let input;
+while ((input = prompt('Введите число!')) !== null) {
+let number = +input; 
+if (!isNaN(number))
+total += number;
 }
-while(input){
-    total += input;
-    input = +prompt();
-}
+if(input === "" || input === null || !isFinite(input)){
 alert(`Общая сумма чисел равна ${total}`);
+}
