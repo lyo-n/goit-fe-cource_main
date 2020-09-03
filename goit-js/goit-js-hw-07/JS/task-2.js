@@ -17,5 +17,3 @@ const ingredients = [
   
   list.append(...listItems);
   
-  
-//   console.log(list);

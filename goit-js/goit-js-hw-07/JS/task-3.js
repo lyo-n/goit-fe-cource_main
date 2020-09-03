@@ -15,7 +15,6 @@ const images = [
       alt: 'Group of Horses Running',
     },
   ];
-
   const imglist = images.reduce((acc, item) =>{
     item = `<li><img src="${item.url}" alt="${item.alt}"></li>`;
     return acc+=item;}, [])
