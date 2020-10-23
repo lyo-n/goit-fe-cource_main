@@ -10,17 +10,6 @@
     background-size: no-repeat;
   }
   
-  a {
-    display: block;
-    text-decoration: none;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
   *::before,
   *::after {
     box-sizing: inherit;
@@ -46,9 +35,11 @@
     width: 500px;
     padding: 20px;
     font-size: 15px;
-    font-style: italic;
+    /* font-style: italic; */
     border-radius: 5px;
     outline: none;
+    color: rgb(253, 5, 5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .gallery {
@@ -58,17 +49,11 @@
   }
   
   .photo__item {
-    border-color: #f6f6f6;
     padding: 2px;
-    border: 1px solid #d4d7dd;
     margin: 1px;
     margin-bottom: 15px;
   }
-  
-  .photo__card {
-    object-fit: cover;
-  }
-  
+    
   .gallary__photo__card {
     margin-bottom: 5px;
     height: 340px;
@@ -90,13 +75,13 @@
     border-radius: 3px;
     width: 80px;
     display: flex;
-    background-color:green;
-
+    background-color:rgb(224, 238, 207);
   }
   .stats-item:hover,
   .stats-item:focus {
-    color:white;
+    color:black;
     transform: scale(1.2);
+    background-color:rgb(12, 221, 211);
   }
   
   .material-icons {
@@ -115,7 +100,7 @@
     margin: 0 auto;
     border-radius: 5px;
     font-size: 20px;
-    color:  green;
+    color:  rgb(253, 5, 5);
     background-color: white;
     opacity: 0.9;
     border: none;
