@@ -1,0 +1,67 @@
+.profile {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  height: 400px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+.avatar {
+  margin-top: 25px;
+  width: 180px;
+  height: 180px;
+  background-color: #f5f5dc;
+  border-radius: 300px;
+}
+.name {
+  font-size: 26px;
+  margin: 5px;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tag {
+  font-size: 16px;
+  margin: 5px;
+  color: #a0a0a0;
+  font-weight: 300;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.location {
+  font-size: 16px;
+  margin: 5px;
+  color: #808080;
+  font-weight: 300;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.description {
+  text-align: center;
+}
+.stats {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  list-style: none;
+  text-align: center;
+}
+.item {
+  display: block;
+  border: 1px solid #e8ecef;
+  background-color: #f2f6f9;
+  width: 100px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  color: #808080;
+  font-size: 16px;
+  margin: 5px;
+}
+.quantity {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}

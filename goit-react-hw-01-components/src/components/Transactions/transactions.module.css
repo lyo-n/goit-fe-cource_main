@@ -1,0 +1,15 @@
+.transactionHistory {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+.theadName {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.tr {
+  display: flex;
+  justify-content: space-between;
+  width: 275px;
+}
