@@ -2,6 +2,7 @@
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lyo-n/github.io/goit-fe-cource_main/tree/master/goit-react-hw-01-components",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
@@ -19,8 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://oBorschev.github.io/goit-react-hw01-components",
-  "eslintConfig": {
+    "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
